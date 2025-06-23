@@ -45,7 +45,10 @@ Clone the repo:
 `bash`
 git clone https://github.com/yourusername/jdbc-project.git
 cd jdbc-project
-Update your MySQL credentials in the Java code (e.g., ConnectionProvider.java):
+
+**Update your MySQL credentials in the Java code**
+
+(e.g., ConnectionProvider.java):
 
 java (CP.java) // Connection Provider Class
 
@@ -58,9 +61,9 @@ String password = "yourpassword";
 Connection con = DriverManager.getConnection(url, user, password);
 
 
-Compile and run the app:
+***Compile and run the app:***
 
-`bash`
+```bash
 
 javac Start.java
 java Start
