@@ -30,33 +30,38 @@ PRESS 4 to Exit App
    ```sql
    CREATE DATABASE student_manage;
 2. **Create Table**
-3. USE student_manage;
+3. **USE student_manage;**
 
-CREATE TABLE students (
+```CREATE TABLE students (
     id INT PRIMARY KEY AUTO_INCREMENT,
     sname VARCHAR(100),
     sphone VARCHAR(15),
     scity VARCHAR(100)
-);
+);```
 
 ***🧑‍💻 How to Run***
 
 Clone the repo:
 
-bash
+`bash`
 git clone https://github.com/yourusername/jdbc-project.git
 cd jdbc-project
 Update your MySQL credentials in the Java code (e.g., ConnectionProvider.java):
 
 java (CP.java) // Connection Provider Class
+
 String url = "jdbc:mysql://localhost:3306/student_manage";
+
 String user = "root";
+
 String password = "yourpassword";
+
 Connection con = DriverManager.getConnection(url, user, password);
 
 
 Compile and run the app:
 
-bash
+`bash`
+
 javac Start.java
 java Start
