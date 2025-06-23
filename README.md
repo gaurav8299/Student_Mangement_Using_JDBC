@@ -37,9 +37,9 @@ PRESS 4 to Exit App
     sname VARCHAR(100),
     sphone VARCHAR(15),
     scity VARCHAR(100)
-);```
+);
 
-***🧑‍💻 How to Run***
+~🧑‍💻 How to Run~
 
 Clone the repo:
 
