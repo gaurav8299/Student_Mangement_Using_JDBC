@@ -36,8 +36,8 @@ PRESS 4 to Exit App
     id INT PRIMARY KEY AUTO_INCREMENT,
     sname VARCHAR(100),
     sphone VARCHAR(15),
-    scity VARCHAR(100)
-);
+    scity VARCHAR(100) );
+
 ***🧑‍💻 How to Run***
 
 Clone the repo:
