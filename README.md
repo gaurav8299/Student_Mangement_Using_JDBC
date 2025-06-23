@@ -38,7 +38,6 @@ PRESS 4 to Exit App
     sphone VARCHAR(15),
     scity VARCHAR(100)
 );
-
 ***🧑‍💻 How to Run***
 
 Clone the repo:
