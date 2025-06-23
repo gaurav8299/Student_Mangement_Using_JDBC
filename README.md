@@ -30,16 +30,16 @@ PRESS 4 to Exit App
    ```sql
    CREATE DATABASE student_manage;
 2. **Create Table**
-3. **USE student_manage;**
-
-```CREATE TABLE students (
+   ```sql
+   USE student_manage;
+   CREATE TABLE students (
     id INT PRIMARY KEY AUTO_INCREMENT,
     sname VARCHAR(100),
     sphone VARCHAR(15),
     scity VARCHAR(100)
 );
 
-~🧑‍💻 How to Run~
+***🧑‍💻 How to Run***
 
 Clone the repo:
 
